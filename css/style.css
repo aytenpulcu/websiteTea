@@ -1,0 +1,37 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Roboto', sans-serif; /* Veya başka bir modern font */
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero-section {
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+/* Kartlar için gölge ve hover efekti */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px; /* Görsel yüksekliğini ayarlayın */
+    object-fit: cover; /* Görselin karta tam oturmasını sağlayın */
+}
+
+/* Diğer özelleştirmeler */

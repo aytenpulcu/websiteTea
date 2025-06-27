@@ -1,0 +1,13 @@
+.logo {
+    font-family: 'Georgia', serif; /* Veya Google Fonts'tan zarif bir font */
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4CAF50; /* Yeşil veya doğal bir ton */
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    margin-right: 10px;
+    /* Buraya SVG demlik veya yaprak ikonu eklenebilir */
+}
