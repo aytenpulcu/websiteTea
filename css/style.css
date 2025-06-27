@@ -9,7 +9,10 @@ body {
     position: relative;
     color: white;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    height: 70vh;
+    background: url('../img/background.jpg') no-repeat center center/cover;
 }
+
 
 .hero-section h1 {
     font-size: 3.5rem;
